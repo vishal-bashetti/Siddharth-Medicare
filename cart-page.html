@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="image/croped-logo.png" alt="" id="logo"> 
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </nav>
+                <img src="image/cart.png" alt="" id="cart-icon"> 
+                <img src="image/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+        <!-- -----cart items----- -->
+        <div class="small-container cart-page">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="image/cart/croped.jpg" alt="">
+                            <div>
+                                <p>
+                                    Ancient Nutrients Zinc
+                                </p>
+                                <small>
+                                    Price:$10
+                                </small> <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                        
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$10</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="image/cart/1.jpg" alt="">
+                            <div>
+                                <p>
+                                    Avocado Face Oil
+                                </p>
+                                <small>
+                                    Price:$20
+                                </small> <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                        
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$20</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="image/cart/croped.jpg" alt="">
+                            <div>
+                                <p>
+                                    Ancient Nutrients Zinc
+                                </p>
+                                <small>
+                                    Price:$10
+                                </small> <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                        
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$10</td>
+                </tr>
+            </table>
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$40</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$45</td>
+                    </tr>
+                </table>
+                <!-- <button>Check out</button> -->
+            </div>
+            <div id="input">
+                <input type="number" placeholder="Coupon Code"><p>Enter coupon code</p>
+            </div>
+            <button> <i class="fas fa-shopping-cart"></i> Check out</button>
+        </div>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="frow">
+                <div class="clogo">
+                    <img src="image/mlogo.png" alt="">
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li>About us</li>
+                        <li>Privacy</li>
+                        <li>Affiliate Program</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Shipping</li>
+                        <li>Order Status</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="toggole-menu.js"></script>
+    
+</body>
+</html> 

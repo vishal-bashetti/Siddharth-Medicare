@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="image/croped-logo.png" alt="" id="logo"> 
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </nav>
+                <a href="cart-page.html"><img src="image/cart.png" alt="" id="cart-icon"></a>
+                <img src="image/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="caption-image">
+                <div class="col-2">
+                    <h1>The Greatest Wealth <br> Is Health</h1>
+                    <p>The pain you feel today, will be the strength you feel tomorrow</p>
+                </div>
+                <div class="col-2">
+                    <img src="image/large-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider box Offer-->
+
+    <div class="slider-box">
+        <h3>Offers</h3>
+        <div id="slider">
+            <img src="slider-offers/1.png" alt="">
+            <img src="slider-offers/2.png" alt="">
+            <img src="slider-offers/3.png" alt="">
+            <img src="slider-offers/4.png" alt="">
+        </div>
+        <div class="indicators">
+            <span id="btn1" class="active"></span>
+            <span id="btn2"></span>
+            <span id="btn3"></span>
+            <span id="btn4"></span>
+        </div>
+    </div>
+    <script src="slider-offer.js"></script>
+    
+    <!-- Slider box BEST-->
+
+    <div class="slider-box-best">
+        <h3>Best Selling</h3>
+        <div id="slider-best">
+            <img src="best-selling/b1.jpg" alt="">
+            <img src="best-selling/b2.jpg" alt="">
+            <img src="best-selling/b3.jpg" alt="">
+            <img src="best-selling/b4.jpg" alt="">
+        </div>
+        <div class="indicators-best">
+            <span id="bbtn1" class="best-active"></span>
+            <span id="bbtn2"></span>
+            <span id="bbtn3"></span>
+            <span id="bbtn4"></span>
+        </div>
+    </div>
+    <script src="best-selling.js"></script>
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="frow">
+                <div class="footer-col">
+                    <img src="image/mlogo.png" alt="">
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li>About us</li>
+                        <li>Privacy</li>
+                        <li>Affiliate Program</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Shipping</li>
+                        <li>Order Status</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="toggole-menu.js"></script>
+</body>
+</html> 
